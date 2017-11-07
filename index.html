@@ -1,0 +1,243 @@
+<!-- // Color palette
+$softWhite: #dcdcdc;
+$lineSeparatorColor: #454545;
+$panelBorderColor: #383838;
+
+$buttonBackgroundColor: #535353;
+$buttonForegroundColor: #dadada;
+
+$buttonClickBackgroundColor: #383838;
+$buttonClickForegroundColor: #f0f0f0;
+$buttonClickBorderColor: #666666;
+
+$buttonHoverBackgroundColor: #474747;
+$buttonHoverForegroundColor: #f0f0f0;
+$buttonHoverBorderColor: #666666;
+
+$buttonClickBorderColor: #636363;
+$primer: #535353; -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style rel="stylesheet">
+
+      @import url('https://fonts.googleapis.com/css?family=Cousine:700|Source+Code+Pro:700');
+
+      .fa
+      {
+        -webkit-transform: scale(0.9,0.9);
+        -moz-transform: scale(0.9,0.9);
+        -ms-transform: scale(0.9,0.9);
+        -o-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+      }
+
+      html, body
+      {
+        height: 100%;
+        width: 100%;
+
+        margin: 0;
+        background-color: #424242;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      article.v-right-panel
+      {
+        /*display: inline-block;*/
+        float: left;
+        margin: 0px;
+        margin-right: 4px;
+        width: auto;
+        height: 100%;
+        background-color: #303030;
+
+      }
+
+      a.v-right-panel-header
+      {
+        display: block;
+        height: 12px;
+        color: #3e4242;
+        border: 0px solid #252525;
+        background-color: transparent;
+        padding:0px;
+      }
+
+      img.v-right-panel-header-button
+      {
+        float: right;
+        text-align: center;
+        vertical-align: center;
+        background-color: #303030;
+        border: 1px solid transparent;
+        padding: 2px;
+        margin: 0;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      img.v-right-panel-header-button:hover
+      {
+        border: 1px solid #252525;
+        background-color: #303030;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      header.v-right-panel-divider
+      {
+        height: 8px;
+        background-color: #484848;
+        border: 1px solid #252525;
+        border-bottom: 0;
+        text-align: center;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      img.divider-icon
+      {
+        margin-top: 4px;
+        vertical-align: top;
+        text-align: center;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      section.v-right-panel-section
+      {
+        outline-offset: 0px;
+        margin: 0;
+        background-color: #484848;
+
+        border: 1px solid #252525;
+        border-top: 0;
+        border-bottom: 0;
+
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      footer.v-right-panel-footer
+      {
+        height: inherit;
+        background-color: #484848;
+        border: 1px solid #252525;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      .v-button-icon
+      {
+        vertical-align: middle;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      .v-button
+      {
+        text-align:justify;
+        display: block;
+        background-color: #484848;
+        color: #dadada;
+
+        border: solid 0.2px #484848;
+
+        font-size: 10px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: bold;
+
+        border-radius: 1.5px;
+
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        margin-top: 4px;
+        margin-bottom: 0px;
+        margin-left: 1px;
+        margin-right: 1px;
+
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: -moz-none;
+        -o-user-select: none;
+        user-select: none;
+
+        cursor:pointer;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      .v-button:hover
+      {
+        background-color: #404040;
+        color: #f0f0f0;
+        border: solid 0.2px #666;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+
+      .v-button:active
+      {
+        background-color: #383838;
+        color: #f0f0f0;
+
+        outline-offset: 0px;
+        outline: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="v-right-panel">
+        <a class="v-right-panel-header"><img class="v-right-panel-header-button" src="./img/v-double-chevron-left.png"></a>
+        <header class="v-right-panel-divider"><img class="divider-icon" src="./img/adobe-ruler.png"></header>
+        <section class="v-right-panel-section">
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw" ></i></a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i></a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i></a>
+        </section>
+        <header class="v-right-panel-divider"><img class="divider-icon" src="./img/adobe-ruler.png"></header>
+        <section class="v-right-panel-section">
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw" ></i></a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i></a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i></a>
+        </section>
+        <footer class="v-right-panel-footer"></footer>
+    </article>
+    <article class="v-right-panel">
+        <a class="v-right-panel-header"><img class="v-right-panel-header-button" src="./img/v-double-chevron-left.png"></a>
+        <header class="v-right-panel-divider"><img class="divider-icon" src="./img/adobe-ruler.png"></header>
+        <section class="v-right-panel-section">
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw" ></i> Button1</a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i> Button2</a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i> Button3</a>
+        </section>
+        <header class="v-right-panel-divider"><img class="divider-icon" src="./img/adobe-ruler.png"></header>
+        <section class="v-right-panel-section">
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw" ></i> Button1</a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i> Button2</a>
+          <a id="" class="v-button"><i class="fa fa-camera-retro fa-3x fa-pull-right v-button-icon fa-fw"></i> Button3</a>
+        </section>
+        <footer class="v-right-panel-footer"></footer>
+    </article>
+  </body>
+</html>
